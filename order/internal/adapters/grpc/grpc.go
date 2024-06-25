@@ -3,7 +3,7 @@ package grpc
 import (
 	"context"
 	"github.com/aknEvrnky/grpc-microservices-proto/golang/order"
-	"github.com/aknevrnky/microservices-order/internal/application/core/domain"
+	"github.com/aknevrnky/grpc-microservices/order/internal/application/core/domain"
 	"log"
 )
 

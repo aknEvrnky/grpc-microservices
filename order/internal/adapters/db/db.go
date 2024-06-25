@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	"github.com/aknevrnky/microservices-order/internal/application/core/domain"
+	"github.com/aknevrnky/grpc-microservices/order/internal/application/core/domain"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

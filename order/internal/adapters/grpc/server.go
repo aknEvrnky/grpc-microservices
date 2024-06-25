@@ -3,8 +3,8 @@ package grpc
 import (
 	"fmt"
 	"github.com/aknEvrnky/grpc-microservices-proto/golang/order"
-	"github.com/aknevrnky/microservices-order/config"
-	"github.com/aknevrnky/microservices-order/internal/ports"
+	"github.com/aknevrnky/grpc-microservices/order/config"
+	"github.com/aknevrnky/grpc-microservices/order/internal/ports"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"log"

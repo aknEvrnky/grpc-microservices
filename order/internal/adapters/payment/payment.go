@@ -3,7 +3,7 @@ package payment
 import (
 	"context"
 	"github.com/aknEvrnky/grpc-microservices-proto/golang/payment"
-	"github.com/aknevrnky/microservices-order/internal/application/core/domain"
+	"github.com/aknevrnky/grpc-microservices/order/internal/application/core/domain"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

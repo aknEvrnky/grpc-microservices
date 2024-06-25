@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/aknevrnky/microservices-order/config"
-	"github.com/aknevrnky/microservices-order/internal/adapters/db"
-	"github.com/aknevrnky/microservices-order/internal/adapters/grpc"
-	"github.com/aknevrnky/microservices-order/internal/adapters/payment"
-	"github.com/aknevrnky/microservices-order/internal/application/core/api"
+	"github.com/aknevrnky/grpc-microservices/order/config"
+	"github.com/aknevrnky/grpc-microservices/order/internal/adapters/db"
+	"github.com/aknevrnky/grpc-microservices/order/internal/adapters/grpc"
+	"github.com/aknevrnky/grpc-microservices/order/internal/adapters/payment"
+	"github.com/aknevrnky/grpc-microservices/order/internal/application/core/api"
 	"log"
 )
 

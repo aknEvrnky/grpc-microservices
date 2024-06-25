@@ -1,4 +1,4 @@
-module github.com/aknevrnky/microservices-order
+module github.com/aknevrnky/grpc-microservices/order
 
 go 1.22.4
 
