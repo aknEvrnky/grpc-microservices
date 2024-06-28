@@ -49,7 +49,7 @@ func (a *Application) PlaceOrder(order *domain.Order) (*domain.Order, error) {
 
 		badReq := &errdetails.BadRequest{}
 		badReq.FieldViolations = append(badReq.FieldViolations, fieldErr)
-		orderStatus := status.New(codes.InvalidArgument, "order creation failed")
+		orderStatus := status.New(codes.InvalidArgument, st.Message())
 		statusWithDetails, _ := orderStatus.WithDetails(badReq)
 
 		return &domain.Order{}, statusWithDetails.Err()

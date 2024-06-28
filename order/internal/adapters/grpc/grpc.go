@@ -20,7 +20,7 @@ func (a *Adapter) Create(ctx context.Context, request *order.CreateOrderRequest)
 	newOrder := domain.NewOrder(request.UserId, orderItems)
 	result, err := a.api.PlaceOrder(newOrder)
 	if err != nil {
-		log.Fatalf("failed to place order, error: %v\n", err)
+		log.Printf("failed to place order, error: %v\n", err)
 	}
 
 	return &order.CreateOrderResponse{
